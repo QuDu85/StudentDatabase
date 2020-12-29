@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/nHoten"
+        android:hint="Ho Ten: "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="10sp"/>
+    <EditText
+        android:id="@+id/nMSSV"
+        android:hint="MSSV: "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="10sp"/>
+    <EditText
+        android:id="@+id/nemail"
+        android:hint="Email: "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="10sp"/>
+    <EditText
+        android:id="@+id/nngaysinh"
+        android:hint="Ngay sinh: "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="10sp"/>
+    <EditText
+        android:id="@+id/naddr"
+        android:hint="Dia chi: "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="10sp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/confirm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="50dp"
+            android:text="OK"/>
+        <Button
+            android:id="@+id/cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cancel"/>
+    </LinearLayout>
+</LinearLayout>
